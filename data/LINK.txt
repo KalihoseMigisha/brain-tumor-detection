@@ -1,0 +1,15 @@
+# Brain Tumor Detection Using Deep Learning
+
+## 📂 Dataset
+
+This project uses the **Brain Tumor MRI Dataset** provided by Masoud Nickparvar on Kaggle.
+
+📦 **Download via Kaggle Hub:**
+
+```python
+# Install kagglehub if not installed
+!pip install kagglehub
+
+# Download the dataset
+import kagglehub
+path = kagglehub.dataset_download("masoudnickparvar/brain-tumor-mri-dataset")
